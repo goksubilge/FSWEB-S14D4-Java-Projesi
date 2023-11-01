@@ -15,8 +15,9 @@ public class Cholcolate extends ProductForSale{
     public void showDetails() {
         String builderPFS = super.toString();
         StringBuilder builderChocolate = new StringBuilder();
+        builderChocolate.append("****** Chocolate Details *******\n");
         builderChocolate.append("isZero= " + isHaveKakaoPowder +"\n");
-        builderChocolate.append("****** Product with Chocolate *******\n");
+        builderChocolate.append("********************************\n");
         System.out.println(builderPFS + builderChocolate.toString());
 
     }

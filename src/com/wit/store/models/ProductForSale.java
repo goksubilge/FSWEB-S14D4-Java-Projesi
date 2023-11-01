@@ -34,6 +34,7 @@ public abstract class ProductForSale {
     public String toString() {
         StringBuilder builderPFS = new StringBuilder();
         builderPFS.append("****** ProductForSale *******\n");
+        builderPFS.append("****** Product Details: " + getClass().getSimpleName() + " *******\n");
         builderPFS.append("type= " + type + "\n");
         builderPFS.append("price= " + price + "\n");
         builderPFS.append("description= " + description + "\n");

@@ -12,8 +12,9 @@ public class Coke extends ProductForSale {
     public void showDetails() {
         String builderPFS = super.toString();
         StringBuilder builderCoke = new StringBuilder();
+        builderCoke.append("****** Coke Details *******\n");
         builderCoke.append("isZero" + isZero +"\n");
-        builderCoke.append("****** Product with Coke *******\n");
+        builderCoke.append("********************************\n");
         System.out.println(builderPFS + builderCoke.toString());
     }
 }

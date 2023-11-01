@@ -15,9 +15,10 @@ public class Bread extends ProductForSale{
     public void showDetails() {
         String builderPFS = super.toString();
         StringBuilder builderBread = new StringBuilder();
+        builderBread.append("****** Bread Details *******\n");
         builderBread.append("flourColor= " + flourColor + "\n");
         builderBread.append("shape= " + shape + "\n");
-        builderBread.append("****** Product with Bread *******\n");
+        builderBread.append("********************************\n");
         System.out.println(builderPFS + builderBread);
     }
 }
